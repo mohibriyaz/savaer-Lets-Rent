@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Redressed&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Arvo", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(228, 182, 129);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.bs1 {
+  box-shadow: rgb(243, 230, 230) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Arvo", serif;
+  color: rgb(216, 165, 106);
+}
+p {
+  margin: 5px important;
+
+  padding: 0;
+}
+.btn1 {
+  box-shadow: none !important;
+  background-color: antiquewhite !important;
+  color: brown !important;
+  border: 1px solid brown !important;
+  padding: 5px 25px !important ;
+  outline: none;
+}
+.btn1 :focus {
+  border: none;
+}
+.header {
+  padding: 10px;
+  background-color: rgb(102, 89, 89);
+}
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: antiquewhite !important;
+  color: brown !important;
+  border: 1px solid brown !important;
+  padding: 5px 25px !important ;
+  outline: none;
+}
+.content {
+  min-height: 90vh;
+}
+
+/*UI*/
+.car:hover > .car-content {
+  opacity: 1;
+  transform: translateY(-50px);
+}
+.carimg {
+  height: 175px;
+  width: auto;
+  border-radius: 7px;
+  transform: translateY(-60px);
+}
+
+.car:hover {
+  height: 250px;
+}
+
+.car-content {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 170px;
+  transition: 0.3s;
+}
+
+.login {
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.login label,
+.login h1 {
+  color: antiquewhite !important;
+}
+.login-form {
+  background-color: #1f1f1f;
+}
+.login-form input {
+  background-color: #333333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 65%;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  font-size: 30px;
+  opacity: 0.2 !important;
+}
+.login a {
+  color: aliceblue !important;
+  opacity: 0.5;
+}
+
+.carimg2 {
+  height: 400px;
+  border-radius: 10px;
+  width: auto;
+}
+.btn5 {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  background-color: #77b55a;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+.btn5:hover {
+  background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+  background-color: #72b352;
+}
+.btn5:active {
+  position: relative;
+  top: 1px;
+}
+
+.svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.text-right {
+  text-align: right;
+}
+.a {
+  color: black !important;
+}
+.footer {
+  background-color: aquamarine !important;
+}
